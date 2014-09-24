@@ -1,0 +1,75 @@
+td.verticalLine{
+	border-left: 2px solid silver;
+	font-size: 15px;
+	font-weight: bold;
+	height: 0px;
+	width: 800px;
+	text-align: left;
+	padding: 10px 10px;
+	vertical-align: top;
+}
+
+td.NoVerticalLine{
+	font-size: 15px;
+	font-weight: bold;
+	height: 0px;
+	width: 800px;
+	text-align: left;
+	padding: 10px 10px;
+}
+
+span.space{
+	display: inline-block;
+	text-indent: 5em;
+	font-style:italic;
+	color: silver;
+}
+
+div > img{
+	border: 3px solid silver;
+	width: 200px;
+	height: 200px;
+	-webkit-transform: rotate(355deg);
+	transform: rotate(355deg);
+	position: absolute;
+	right: 100;
+	top: 20;
+}
+
+#span{
+	width:800px; 
+	height:40px;
+}
+
+div.text2{
+	font-style: italic;
+	width:1025px; 
+	height:70px;
+}
+
+td.heading{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 17px;
+	text-align: right;
+	vertical-align:top;
+	padding: 10px 10px;
+}
+
+table{
+	margin-top: 10px;
+	padding: 20px;
+	padding-top:0px;
+	width: 70%;
+	/*height: 150px;*/
+	position: absolute;
+	left: 200px;
+}
+
+tr{
+	height: 80px;
+}
+
+.nobold{
+	font-weight: normal;
+}
